@@ -1,0 +1,125 @@
+
+/* This is a font family for the entire page */
+.body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo {
+    height: 150px;
+    padding: 14px 30px;
+    background-position: left;
+    float: left;
+    margin-bottom: 0;
+}
+
+.nav {
+    position: relative;
+    padding: 35px 25px;
+    text-decoration: none;
+    text-align-last: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: black;
+    width: 100%;
+}
+
+.header {
+    display:inline-block;
+}
+
+.aside {
+    text-align: left;
+    right: 25px;
+    width: 25%;
+    height: 300px;
+    margin: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    padding-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+}
+    
+.avatar {
+    margin-top: 50px;
+    float: right;
+    width: 65%;
+}
+
+.project {
+    flex: 0 0 250px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.project_cards {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer {
+    text-align: left;
+}
+
+
+/*--@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
+
+/* nav - test 1    
+display: inline-block;
+position: relative;
+text-align: right;
+width: 65%;
+background-color: rgb(157, 212, 212);
+text-decoration: none;
+padding: 25px;
+word-spacing: 1.5rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15pt;
+
+/* old h1
+    display: flexbox; 
+    height: 410px;
+    width: 40%;
+    padding-top: 500px;
+    margin: 0px;
+    position: :left;
+
+/*old h1 v2
+    flex: 4;
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+/*--aside v1
+    display: flexbox;
+    position: relative;
+    text-align: left;
+    right: 25px;
+    width: 25%;
+    height: 300px;
+    margin: 150px;
+
+/*--aside v2
+    text-align: left;
+    right: 25px;
+    width: 25%;
+    height: 300px;
+    margin: 60px;
+    padding-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+
+/*--first, second, third project v1
