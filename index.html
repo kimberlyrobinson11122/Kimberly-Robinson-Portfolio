@@ -17,16 +17,16 @@
 
         <nav class="nav">
              <!--navigation to different sections on this page-->
-            <a href="#" class="nav">Work</a>
-            <a href="#" class="nav">About</a>
-            <a href="#" class="nav">Contact</a>
-            <a href="#" class="nav">Other</a>
+            <a href="#work" class="nav">Work</a>
+            <a href="#about" class="nav">About</a>
+            <a href="#contact" class="nav">Contact</a>
+            <a href="#other" class="nav">Other</a>
         </nav>
 
         <section>
-            <!--aside blurb and my avatar-->         
+            <!--aside name/intro + my avatar-->         
             <image class="avatar" src="..//challenge_2_professional_portfolio_website/assets/images/cover_for_my_portfolio.jpg"></image>
-            <h1 class="aside" style="font-size:3.75vw;">I’m Kimberly Robinson, a designer & software developer based in Seattle. Available for freelance & collaborations</h1> 
+            <div class="aside" style="font-size:3.50vw;">I’m Kimberly Robinson, a designer & software developer based in Seattle. Available for freelance & collaborations</div> 
 
         </section>
 
@@ -34,60 +34,112 @@
 
     <main>
 
-        <!--Sections-->        
+        <hr>
+        <h2 id="work">Projects</h2>
+        <!--work sections-->   
+
         <section class="project_cards">
-            
-            <h2>Projects</h2>
-            <hr>
-           
+    
+                <!--project cards have placeholder links for upcoming work-->
                 <section class="project">
-                <header>Project: Pre-Work Webpage</header> 
-                <a href="https://www.google.com/"><img src="..//challenge_2_professional_portfolio_website/assets/images/cherry blossom tree garden with girl in komono.png" alt="girl in komono in japanese garden with cherry blossoms"></a>
+                <header>Accessibility Project</header> 
+                <a href="https://kimberlyrobinson11122.github.io/challenge_1_seo_website_rework/" alt="coworkers at a table looking at laptop">
+                <div class="project_div" id="accessibility"></div></a>
                 </section>
                 
                 <section class="project">
-                <header>Project: KCP App (Kindness.Caring.Patience)</header> 
-                <a id="second_project" href="https://www.google.com/"><img src="..//challenge_2_professional_portfolio_website/assets/images/KCP app cover art 1.png" alt="app cover with flowers for kcp app"></a>
+                <header>KCP (Kindness.Caring.Patience) Mobile App</header> 
+                <a href="https://www.google.com/" alt="picture of a mobile phone with flowers representing a new app">
+                <div class="project_div" id="kcp"></div></a>
                 </section>
 
                 <section class="project">
-                <header>Project: Starbucks App (This or That)</header> 
-                <a id="third_project" href="https://www.google.com/"><img src="..//challenge_2_professional_portfolio_website/assets/images/project_app_starbucks_this_or_that.jpg" alt="small lego guy sitting at a table with coffee and computer"></a>
+                <header>Starbucks Intercept App (This or That)</header> 
+                <a href="https://www.google.com/" alt="tree in a house with a large starbucks cup out front"></a>
+                <div class="project_div" id="starbucks"></div></a>
                 </section>
-               
-            <h2 class="AI">AI Image Creation</h2>
 
-            <hr>
-                <ul>
-                    <a href="https://www.google.com/">Project 1</a>
-                    <a href="https://www.google.com/">Project 2</a>
-                    <a href="https://www.google.com/">Project 3</a>
-                </ul>
-        
         </section>
 
-        <section class="contact">
+        <div><hr><!--separate div for esthetics-->
+        <h2 id="ai">AI Image Creation</h2>
+        <!--ai image sections-->  
+        </div>
+
+        <section class="project_cards" id="work">
+            
+            <!--project cards have placeholder links for upcoming work-->
+            <section class="project">
+            <header>Girl in City View</header> 
+            <a href="https://www.google.com/" alt="girl looking out at city view">
+            <div class="project_div" id="girl_city_view"></div></a>
+            </section>
+            
+            <section class="project">
+            <header>Flower Textile</header> 
+            <a href="https://www.google.com/" alt="flower textile mixing grey, black, white, and red">
+            <div class="project_div" id="flower_textile"></div></a>
+            </section>
+
+            <section class="project">
+            <header>Woman in Suit</header> 
+            <a href="https://www.google.com/" alt="woman in a business suit with brown hair and black framed glasses"></a>
+            <div class="project_div" id="girl_buisness"></div></a>
+
+        </section>
+
         <!--contact me section-->
-            <h2>Say Hello!</h2>    
+        <section class="buffer" id="contact">
             <hr>
+            <h2>Say Hello!</h2>    
 
             <p>
-                Looking to kickstart a new project or just say hi? Send me an email and I'll do my best to get back to you within 24 hours. Not a fan of contact forms...send me an email at kimberly.robinson@outlook.com
+                Looking to kickstart a new project or just say hi? Send me an email and I'll do my best to get back to you within 24 hours. If you are not a fan of contact forms...send me an email at kimberly.robinson@outlook.com
             </p>
 
             <form>
+
                 <ul>
-                    <label></label>
+                    <p>
+                    <label for="nameUser">Name:</label>
+                    <input class="input-text" id=":nameUser" type="text" placeholder="Your First & Last Name">
+                    </p>
 
+                    <p>
+                    <label for="email">Email:</label>
+                    <input class="input-text" id=":email" type="text" placeholder="(you@gmail.com)">
+                    </p>
+
+                    <p>
+                    <label for="comment">Name:</label>
+                    <input class="input-text" id=":comment" type="text" placeholder="Your Comments Here">
+                    </p>   
                 </ul>
-
-
-
 
             </form>
 
+        </section>
 
-        </contact>
+        <!--about me section-->
+        <section class="buffer" id="about">
+                <h2>About Me</h2>    
+                <hr>
+    
+                <p>
+                    Born and raised in the vibrant landscapes of Northern California, specifically Sunnyvale, I've always been drawn to the intersection of technology and creativity. After completing my education, I made the leap to Los Angeles, where I delved into the dynamic world of project management, honing my skills across various industries, all while nurturing a deep-seated passion for innovation. With nearly a decade of experience under my belt, I've recently embarked on a thrilling journey with an EdX and Berkeley Boot Camp, immersing myself in the latest software and design principles. Each project undertaken fuels my drive and excitement, propelling me towards the creation of impactful apps and ventures. I'm eagerly anticipating the opportunity to continue pushing boundaries and leaving my mark on the ever-evolving landscape of technology.
+                </p>
+        </section>
+
+        <!--other stuff is a placeholder for blog or reference articles for clients-->
+        <section class="buffer" id="other">
+            
+                <hr>
+                <h2>Other Stuff</h2>    
+            
+                <p>
+                    Page Under Construction
+                </p>
+        </section>    
 
     </main>
 

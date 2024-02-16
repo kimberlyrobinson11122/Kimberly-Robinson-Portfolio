@@ -1,10 +1,14 @@
 
-/* This is a font family for the entire page */
-.body {
+
+body {
+    /* This is a font family page*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
 }
 
+
 .logo {
+    /* This is the unique AI Image I created for a logo*/
     height: 150px;
     padding: 14px 30px;
     background-position: left;
@@ -13,6 +17,7 @@
 }
 
 .nav {
+    /*navigation menu on the top right side of the page*/
     position: relative;
     padding: 35px 25px;
     text-decoration: none;
@@ -28,98 +33,119 @@
 }
 
 .aside {
+    /*name + intro text left side of my avatar*/
     text-align: left;
-    right: 25px;
     width: 25%;
-    height: 300px;
-    margin: 60px;
+    margin: 15px;
     display: flex;
     flex-wrap: wrap;
-    flex-grow: 1;
-    padding-top: 100px;
+    padding-top: 75px;
+    padding-bottom: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 35px;
     font-weight: lighter;
 }
     
 .avatar {
+    /*unique image as my avatar*/
     margin-top: 50px;
     float: right;
     width: 65%;
+    margin-bottom: 250px;
 }
+
 
 .project {
     flex: 0 0 250px;
     margin: 20px;
     padding: 20px;
+    width: 100%;
+    height: 100%;
 }
+
+
+.project:hover {
+    scale: 1.2
+}
+
 
 .project_cards {
     align-items: flex-start;
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+
+.project_div {
+    margin: 20px;
+}
+
+
+#accessibility {
+    width: 400px;
+    height: 400px;
+    background-image: url("..//images/Horiseon.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+#kcp {
+    width: 400px;
+    height: 400px;
+    background-image: url("..//images/KCP\ app\ cover\ art\ 1.png");
+    background-size: cover;
+}
+
+
+#starbucks {
+    width: 400px;
+    height: 400px;
+    background-image: url("..//images/Starbucks\ app.png");
+    background-size: cover;
+}
+
+
+#girl_city_view {
+    width: 400px;
+    height: 400px;
+    background-image: url("..//images/girl_city_view.jpg.png");
+    background-size: cover;
+}
+
+
+#flower_textile {
+    width: 400px;
+    height: 400px;
+    background-image: url("..//images/Textiles.png");
+    background-size: cover;
+}
+
+
+#girl_buisness {
+    width: 400px;
+    height: 400px;
+    background-image: url("..//images/girl_business.jpg");
+    background-size: cover;
+}
+
+.buffer {
+    padding-top: 100px;
+
 }
 
 .footer {
     text-align: left;
+    padding-top: 75px;
 }
 
 
-/*--@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   main,
   nav {
     flex-direction: column;
   }
+    .aside{
+        font-size: 14px
+    }
+
 }
-
-/* nav - test 1    
-display: inline-block;
-position: relative;
-text-align: right;
-width: 65%;
-background-color: rgb(157, 212, 212);
-text-decoration: none;
-padding: 25px;
-word-spacing: 1.5rem;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 15pt;
-
-/* old h1
-    display: flexbox; 
-    height: 410px;
-    width: 40%;
-    padding-top: 500px;
-    margin: 0px;
-    position: :left;
-
-/*old h1 v2
-    flex: 4;
-    background-color: #fff;
-    padding: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-
-/*--aside v1
-    display: flexbox;
-    position: relative;
-    text-align: left;
-    right: 25px;
-    width: 25%;
-    height: 300px;
-    margin: 150px;
-
-/*--aside v2
-    text-align: left;
-    right: 25px;
-    width: 25%;
-    height: 300px;
-    margin: 60px;
-    padding-top: 100px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 35px;
-    font-weight: lighter;
-
-/*--first, second, third project v1
