@@ -48,7 +48,7 @@ This deployment is to showcase the projects and work for potential employers and
 
 ## Images
 Screenshot of the first build:
-![My Portfolio Initial Build]()
+![My Portfolio Initial Build](assets/images/fixed links to sections and spacing with intro + avatar img.png)
 
 
 ## Credits
