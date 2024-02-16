@@ -1,4 +1,4 @@
-# challenge_2_professional_portfolio_website
+# My Portfolio
 
 # User Story - can I use my version or do I have to use theirs? 
 
@@ -30,10 +30,8 @@ WHEN I click on the images of the applications
 WHEN I resize the page or view the site on various screens and devices
     THEN I am presented with a responsive layout that adapts to my viewport
 
-
 ## Name
 Kimberly Robinson's Portfolio 
-
 
 ## Description
 This deployment is to showcase the projects and work for potential employers and clients
@@ -48,8 +46,10 @@ This deployment is to showcase the projects and work for potential employers and
 
 ## Images
 Screenshot of the first build:
-![My Portfolio Initial Build](assets/images/fixed links to sections and spacing with intro + avatar img.png)
+![My Portfolio Initial Build](https://github.com/kimberlyrobinson11122/Kimberly-Robinson-Portfolio/blob/main/assets/images/fixed%20links%20and%20spacing.png)
 
+Screenshot of the project cards as they should be, adjusting to sizing from center to one column when shrinking the screen:
+![Project Card Adjustment Success](https://github.com/kimberlyrobinson11122/Kimberly-Robinson-Portfolio/blob/main/assets/images/fixed%20sizing%20issue%20with%20different%20devices.png)
 
 ## Credits
 This was built from scratch
