@@ -1,6 +1,6 @@
 # My Portfolio
 
-# User Story - can I use my version or do I have to use theirs? 
+# User Story
 
 AS AN employer
 
