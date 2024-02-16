@@ -81,6 +81,7 @@ body {
 
 
 #accessibility {
+    /*first linked and deployed project*/
     width: 400px;
     height: 400px;
     background-image: url("..//images/Horiseon.jpg");
@@ -88,6 +89,7 @@ body {
     background-position: center;
 }
 
+/*images settings - they worked better as individuals id*/
 
 #kcp {
     width: 400px;
@@ -96,14 +98,12 @@ body {
     background-size: cover;
 }
 
-
 #starbucks {
     width: 400px;
     height: 400px;
     background-image: url("..//images/Starbucks\ app.png");
     background-size: cover;
 }
-
 
 #girl_city_view {
     width: 400px;
@@ -112,14 +112,12 @@ body {
     background-size: cover;
 }
 
-
 #flower_textile {
     width: 400px;
     height: 400px;
     background-image: url("..//images/Textiles.png");
     background-size: cover;
 }
-
 
 #girl_buisness {
     width: 400px;
@@ -128,9 +126,10 @@ body {
     background-size: cover;
 }
 
-.buffer {
-    padding-top: 100px;
 
+.buffer {
+    /*buffer between pages, to highlight the different sections*/
+    padding-top: 100px;
 }
 
 .footer {
