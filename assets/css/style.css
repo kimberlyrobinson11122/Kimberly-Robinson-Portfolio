@@ -53,7 +53,6 @@ body {
     margin-bottom: 250px;
 }
 
-
 .project {
     flex: 0 0 250px;
     margin: 20px;
@@ -62,11 +61,15 @@ body {
     height: 100%;
 }
 
-
 .project:hover {
     scale: 1.2
 }
 
+button:hover {
+    scale: 1.1;
+    color: rgb(128, 5, 5);
+    cursor: pointer;
+}
 
 .project_cards {
     align-items: flex-start;
@@ -74,11 +77,9 @@ body {
     flex-wrap: wrap;
 }
 
-
 .project_div {
     margin: 20px;
 }
-
 
 #accessibility {
     /*first linked and deployed project*/
@@ -137,7 +138,6 @@ body {
     padding-top: 75px;
 }
 
-
 @media screen and (max-width: 768px) {
   main,
   nav {
@@ -146,5 +146,4 @@ body {
     .aside{
         font-size: 14px
     }
-
 }
