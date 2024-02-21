@@ -33,6 +33,9 @@ WHEN I resize the page or view the site on various screens and devices
 ## Name
 Kimberly Robinson's Portfolio 
 
+## Deployed Application
+[Visit my deployed portfolio](https://kimberlyrobinson11122.github.io/Kimberly-Robinson-Portfolio/)
+
 ## Description
 This deployment is to showcase the projects and work for potential employers and clients
 
