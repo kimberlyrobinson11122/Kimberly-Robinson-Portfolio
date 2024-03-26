@@ -92,10 +92,10 @@ button:hover {
 
 /*images settings - they worked better as individuals id*/
 
-#kcp {
+#groove_guide {
     width: 400px;
     height: 400px;
-    background-image: url("..//images/KCP\ app\ cover\ art\ 1.png");
+    background-image: url("../images/Groove\ Guide\ Initial\ Build\ 20240324\ v2.png");
     background-size: cover;
 }
 
