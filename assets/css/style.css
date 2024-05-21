@@ -9,8 +9,8 @@ body {
 
 .logo {
     /* This is the unique AI Image I created for a logo*/
-    height: 150px;
-    padding: 14px 30px;
+    height: 75px; /* Adjust the height as needed */
+    padding: 10px; /* Adjust the padding as needed */
     background-position: left;
     float: left;
     margin-bottom: 0;
@@ -87,7 +87,7 @@ button:hover {
     /*first linked and deployed project*/
     width: 400px;
     height: 400px;
-    background-image: url("..//images/Horiseon.jpg");
+    background-image: url("../images/Horiseon.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -111,21 +111,21 @@ button:hover {
 #girl_city_view {
     width: 400px;
     height: 400px;
-    background-image: url("..//images/girl_city_view.jpg.png");
+    background-image: url("../images/girl_city_view.jpg.png");
     background-size: cover;
 }
 
 #flower_textile {
     width: 400px;
     height: 400px;
-    background-image: url("..//images/Textiles.png");
+    background-image: url("../images/art_multi_layered_assasins_creed.jpg");
     background-size: cover;
 }
 
 #girl_buisness {
     width: 400px;
     height: 400px;
-    background-image: url("..//images/girl_business.jpg");
+    background-image: url("../images/girl_business.jpg");
     background-size: cover;
 }
 
@@ -140,6 +140,7 @@ button:hover {
 .buffer {
     /*buffer between pages, to highlight the different sections*/
     padding-top: 100px;
+    columns: 1;
 }
 
 .footer {
