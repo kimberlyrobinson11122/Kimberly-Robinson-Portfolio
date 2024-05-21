@@ -73,10 +73,9 @@ button:hover {
 }
 
 .project_cards {
-    align-items: flex-start;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
 }
 
 .project_div {
@@ -118,7 +117,7 @@ button:hover {
 #flower_textile {
     width: 400px;
     height: 400px;
-    background-image: url("../images/art_multi_layered_assasins_creed.jpg");
+    background-image: url("../images/Textiles.png");
     background-size: cover;
 }
 
