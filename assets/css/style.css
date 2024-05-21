@@ -4,12 +4,13 @@ body {
     /* This is a font family page*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
+    padding-left: 50px;
 }
 
 
 .logo {
     /* This is the unique AI Image I created for a logo*/
-    height: 75px; /* Adjust the height as needed */
+    height: 150px; /* Adjust the height as needed */
     padding: 10px; /* Adjust the padding as needed */
     background-position: left;
     float: left;
@@ -35,22 +36,22 @@ body {
 .aside {
     /*name + intro text left side of my avatar*/
     text-align: left;
-    width: 25%;
+    width: 45%;
     margin: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 75px;
+    padding-top: 150px;
     padding-bottom: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
+    padding-left: 50px;
 }
     
 .avatar {
     /*unique image as my avatar*/
     margin-top: 50px;
     float: right;
-    width: 65%;
-    margin-bottom: 250px;
+    width: 35%;
+    margin-bottom: 100px;
+    padding-right: 200px;
 }
 
 .project {
@@ -59,6 +60,7 @@ body {
     padding: 20px;
     width: 100%;
     height: 100%;
+    padding-left: 50px;
 }
 
 .project:hover {
@@ -76,6 +78,7 @@ button:hover {
     display: flex;
     justify-content: left;
     align-items: left;
+
 }
 
 .project_div {
