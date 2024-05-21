@@ -65,6 +65,7 @@ body {
     scale: 1.2
 }
 
+
 button:hover {
     scale: 1.1;
     color: rgb(128, 5, 5);
@@ -74,7 +75,8 @@ button:hover {
 .project_cards {
     align-items: flex-start;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .project_div {
@@ -124,6 +126,13 @@ button:hover {
     width: 400px;
     height: 400px;
     background-image: url("..//images/girl_business.jpg");
+    background-size: cover;
+}
+
+#groove_database {
+    width: 400px;
+    height: 400px;
+    background-image: url("../images/Groove\ Guide\ Database.jpg");
     background-size: cover;
 }
 
