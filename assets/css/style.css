@@ -1,5 +1,3 @@
-
-
 body {
     /* This is a font family page*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -25,7 +23,7 @@ body {
     text-align-last: right;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
-    color: black;
+    color: #9370db;
     width: 100%;
 }
 
@@ -36,13 +34,13 @@ body {
 .aside {
     /*name + intro text left side of my avatar*/
     text-align: left;
-    width: 45%;
+    width: 55%;
     margin: 15px;
-    padding-top: 150px;
     padding-bottom: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
     padding-left: 50px;
+    padding-right: 15px;
 }
     
 .avatar {
@@ -51,7 +49,11 @@ body {
     float: right;
     width: 35%;
     margin-bottom: 100px;
-    padding-right: 200px;
+}
+
+.resize {
+    width: 400px;  /* Set the width of the image */
+    height: 300px; /* Set the height of the image */
 }
 
 .project {
@@ -158,4 +160,338 @@ button:hover {
     .aside{
         font-size: 14px
     }
+}
+
+.heros-journey {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.heros-journey h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #9370db;
+}
+
+.journey-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.journey-step {
+    flex: 1;
+    margin: 0 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.journey-step img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.arrow {
+    width: 80px;
+    height: 2px;
+    background-color: #9370db;
+    position: relative;
+}
+
+.arrow::before,
+.arrow::after {
+    content: '';
+    position: absolute;
+    top: -7px;
+    right: -10px;
+    border-left: 10px solid #9370db;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+}
+
+.villains-journey {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.villains-journey h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #9370db;
+}
+
+.villain-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.villain-step {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.villain-step h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #9370db; /* Purple color */
+}
+
+.villain-step p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+}
+
+.pole-play-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.pole-play-box {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #e6e6fa; /* Lavender color */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pole-play-box h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #9370db;
+}
+
+.pole-play-box p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.pole-play-img {
+    width: 400px;  /* Set the width of the image */
+    height: 300px; /* Set the height of the image */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Uniform box-shadow */
+    margin-bottom: 15px; /* Space between the image and text */
+}
+
+.dance-power-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.dance-power-box {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #e6e6fa; /* Lavender color */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.dance-power-box h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #9370db; /* Darker lavender for the headings */
+}
+
+.dance-power-box p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.transformative-journey-section {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.journey-content {
+    flex: 1.5;
+    padding-right: 20px;
+}
+
+.journey-content h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #9370db; /* Darker lavender color for the main heading */
+}
+
+.journey-content h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+}
+
+.journey-content p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.journey-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.journey-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.pole-play-movement-section {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.movement-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.movement-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.movement-content {
+    flex: 1.5;
+}
+
+.movement-content h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #9370db; /* Darker lavender color for the main heading */
+}
+
+.movement-content h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+}
+
+.movement-content p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.passion-section {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.passion-content {
+    flex: 1.5;
+    padding-right: 20px;
+}
+
+.passion-content h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #9370db; 
+}
+
+.passion-content h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+}
+
+.passion-content p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.passion-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.passion-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.intro-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aside {
+    flex: 2;
+    font-size: 1.3em; /* Increase this value to make the text larger */
+    margin-right: 20px;
+}
+.avatar {
+    flex: 1;
+    max-width: 33%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Matching the passion-image style */
 }
